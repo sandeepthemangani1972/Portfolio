@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Sandeep Themangani</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <h1><a href="index.html">SANDEEP THEMANGANI</a></h1>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="skills.html">Skills</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:sandeepthemangani@gmail.com">sandeepthemangani@gmail.com</a></p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/sandeep-themangani-520816270" target="_blank">
+                
+                <i class="bi bi-linkedin"></i>
+            </a><form action="submit_form.php" method="post">
+                <p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </p>
+        <p>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your mail" required>
+            </p>
+            </p>
+        <p>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </p>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; Sandeep Themangani</p>
+    </footer>
+</body>
+</html>
